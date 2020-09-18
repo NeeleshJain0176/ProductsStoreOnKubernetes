@@ -16,6 +16,8 @@ namespace MvcApp
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
+
+            // My Changes
         }
 
         public static IHostBuilder CreateWebHostBuilder(string[] args) =>
